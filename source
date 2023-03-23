@@ -1,0 +1,35 @@
+game.StarterGui:SetCore("ChatMakeSystemMessage",
+		{
+			text = "Oh hey, it actually worked. Anyways..";
+			Color = Color3.fromRGB(0, 255, 0);
+			Font = Enum.Font.SciFi;
+			TextSize = 18;
+		}
+	)
+task.wait(3)
+game.StarterGui:SetCore("ChatMakeSystemMessage",
+		{
+			text = "[The Interminable Redoxes] Mod was Executed by Pl4te501";
+			Color = Color3.fromRGB(0, 255, 0);
+			Font = Enum.Font.SciFi;
+			TextSize = 18;
+		}
+	)
+  task.wait(8)
+  game.StarterGui:SetCore("ChatMakeSystemMessage",
+		{
+			text = "Good luck I guess";
+			Color = Color3.fromRGB(0, 255, 0);
+			Font = Enum.Font.SciFi;
+			TextSize = 18;
+		}
+	)
+  task.wait(8)
+  game.StarterGui:SetCore("ChatMakeSystemMessage",
+		{
+			text = "Zvardin please don't ban me";
+			Color = Color3.fromRGB(0, 255, 0);
+			Font = Enum.Font.SciFi;
+			TextSize = 18;
+		}
+	)
