@@ -1,3 +1,11 @@
+game.Players.PlayerAdded:Connect(function(player)
+	player.CharacterAdded:Connect(function()
+		local Test = Instance.New("Part")
+		Test.Parent = game.Workspace
+		Test.Position = player.Character.PrimaryPart.Position
+	end)
+end)
+
 game.StarterGui:SetCore("ChatMakeSystemMessage",
 		{
 			text = "Oh hey, it actually worked. Anyways..";
