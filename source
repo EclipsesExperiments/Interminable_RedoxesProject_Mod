@@ -1,10 +1,6 @@
-game.Players.PlayerAdded:Connect(function(player)
-	player.CharacterAdded:Connect(function()
-		local Test = Instance.New("Part")
-		Test.Parent = game.Workspace
-		Test.Position = player.Character.PrimaryPart.Position
-	end)
-end)
+local TestPart = Instance.New("Part")
+TestPart.Parent = game.Workspace
+repeat wait() until TestPart ~= nil
 
 game.StarterGui:SetCore("ChatMakeSystemMessage",
 		{
@@ -23,7 +19,7 @@ game.StarterGui:SetCore("ChatMakeSystemMessage",
 			TextSize = 18;
 		}
 	)
-  task.wait(8)
+  task.wait(5)
   game.StarterGui:SetCore("ChatMakeSystemMessage",
 		{
 			text = "Good luck I guess";
@@ -32,10 +28,10 @@ game.StarterGui:SetCore("ChatMakeSystemMessage",
 			TextSize = 18;
 		}
 	)
-  task.wait(8)
+  task.wait(5)
   game.StarterGui:SetCore("ChatMakeSystemMessage",
 		{
-			text = "Zvardin please don't ban me";
+			text = "zvardin please don't ban me";
 			Color = Color3.fromRGB(0, 255, 0);
 			Font = Enum.Font.SciFi;
 			TextSize = 18;
